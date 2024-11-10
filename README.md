@@ -3,7 +3,7 @@
 공공데이터 포털에서 모은 헬스장, 영화관, 공공도서관의 좌표값을 가지고 각 문화시설 별 밀도를 계산하는 방식
 자세한 방법은 다음과 같음
 
-특정 도시 내 특정 문화시설(도서관)이 $n$개 있고 이들을 각각 $X_1, \ldots, X_n$이라 할 때 $i = 1,2,\ldots, n$에 대해 $\delta_i = min\{ |X_1 - X_i|, |X_2 - X_i|, \ldots, |X_n - X_i|\}$라 하면 $D = {\delta_1, \delta_2, \ldots, \delta_n}$을 구할 수 있다.
+특정 도시 내 특정 문화시설(도서관)이 $n$개 있고 이들을 각각 $X_1, \ldots, X_n$이라 할 때 $i = 1,2,\ldots, n$에 대해 $\delta_i = min{ |X_1 - X_i|, |X_2 - X_i|, \ldots, |X_n - X_i|}$라 하면 $D = {\delta_1, \delta_2, \ldots, \delta_n}$을 구할 수 있다.
 
 여기서 $\bar{D} = \frac{1}{n} \sum\limits^{n}_{i=1} \delta_i$이라 하면 각 문화시설별 $\bar{D}$를 비교해 각 문화시설 별 밀도를 구할 수 있다.
 
